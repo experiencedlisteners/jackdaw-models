@@ -34,4 +34,5 @@
    (IOI (d ^p ^ioi)
 	(uniform ())
 	(if (eq (car $d) '*) '(*)
-		(list (- (car $d) $^p))))))
+	    (list (- (car $d) $^p)))
+	:hidden nil)))
